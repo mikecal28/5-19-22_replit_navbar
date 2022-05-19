@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  display: flex;
+  width: 100vw;
+  height: 5vh;
+  border: 3px solid red;
+  background-color: rgb(26, 32, 45);
+}
+
+.nav-item {
+  color: red;
+}
