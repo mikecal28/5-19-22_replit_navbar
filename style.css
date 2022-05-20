@@ -6,12 +6,55 @@
 
 .navbar-container {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   width: 100vw;
-  height: 5vh;
-  border: 3px solid red;
+  height: 8vh;
+  padding: 0 10px;
   background-color: rgb(26, 32, 45);
 }
 
 .nav-item {
-  color: red;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 5px;
+  word-spacing: 8px;
+  color: white;
 }
+
+.nav-item > p {
+  padding-left: 8px;
+}
+
+#play-button {
+  border: 12px solid rgb(9, 73, 20);
+  border-radius: 5px;
+  margin-left: 6vw;
+  margin-right: 34vw;
+  padding: 0 1vw;
+  background-color: rgb(9, 73, 20);
+  color: rgb(112, 216, 130);
+}
+
+#invite-add {
+  border: 8px solid rgb(43, 51, 69);
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: rgb(43, 51, 69);
+}
+
+#bigger-icon {
+  font-size: 2em;
+}
+
+#html5-icon {
+  display: flex;
+  border: 3px solid rgb(43, 51, 69);
+  padding: 2px;
+  border-radius: 5px;
+  background-color: rgb(43, 51, 69);
+  color: red;
+  margin-right: 5px;
+}
+
+/* 43, 51 69 */
